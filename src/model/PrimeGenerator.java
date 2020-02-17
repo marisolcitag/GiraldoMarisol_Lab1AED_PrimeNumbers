@@ -14,6 +14,7 @@ public class PrimeGenerator {
 	 */
 	private boolean[] primes; 
 	
+
 	/**
 	 * Description: This algorithm uses the concept of divisibility in each number of an array 
 	 * Return: An array which contains numbers primes and not.
