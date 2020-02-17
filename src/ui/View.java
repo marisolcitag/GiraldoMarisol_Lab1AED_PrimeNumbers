@@ -4,38 +4,21 @@ package ui;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
-import javafx.scene.control.Dialog;
 import javafx.scene.control.Label;
-import javafx.scene.control.Skin;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
-import javafx.scene.control.ToolBar;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
-import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import model.PrimeGenerator;
-
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-
-
-
-
 
 public class View extends Application{
 	
 	public static PrimeGenerator primeGenerator;
-	
 	
 	public static void main(String[] args) {
 		
@@ -94,8 +77,6 @@ public class View extends Application{
 		 primaryStage.setScene(scene);
 		 primaryStage.show();
 
-		 
-		
 		 FirstAlgorithm.setOnAction(new EventHandler<ActionEvent>() {
 
 			@Override
